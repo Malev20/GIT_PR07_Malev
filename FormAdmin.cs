@@ -16,5 +16,10 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
+
+        private void FormAdmin_Load(object sender, EventArgs e)
+        {
+            label3.Text = DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss");
+        }
     }
 }
