@@ -21,5 +21,10 @@ namespace WindowsFormsApp2
         {
             label3.Text = DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Мальев Никита Иванович");
+        }
     }
 }
